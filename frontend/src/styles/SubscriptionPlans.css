@@ -1,0 +1,76 @@
+.planscreen{
+    background-color: #8d021f;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background-color: #4d0112;
+  
+    /* Animations */
+    transition-timing-function: ease-in;
+    transition: all 500ms;
+  }
+  .nav-items{
+    margin-top: -40px;
+  }
+  .plan-container{
+    margin-top: 10px;
+  }
+.img_avatar {
+    cursor: pointer;
+    position: fixed;
+    /* right: 20px; */
+    right: 280px;
+    width: 45px;
+    top: 12px;
+    height: 45px;
+  }
+.logout{
+  margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.plansScreen__plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.plansScreen__renewal{
+    
+}
+
+.plansScreen__plan:hover {
+    opacity: 1;
+    transition: all 100ms;
+}
+
+.plansScreen__plan > button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #FFF;
+    background-color: green;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.plansScreen__plan--disabled > button {
+    background-color: gray !important;
+    /* pointer-events: none; */
+    cursor: not-allowed;
+}
